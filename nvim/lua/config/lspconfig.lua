@@ -1,5 +1,5 @@
-local lspconfig = require("lspconfig")
 local coq = require("coq")
+local lspconfig = require("lspconfig")
 
 lspconfig.lua_ls.setup(coq.lsp_ensure_capabilities({
   settings = {
@@ -41,3 +41,5 @@ lspconfig.gopls.setup(coq.lsp_ensure_capabilities({
     },
   },
 }))
+
+lspconfig.eslint.setup(coq.lsp_ensure_capabilities({}))
