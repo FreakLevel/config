@@ -1,0 +1,12 @@
+font-size = 20
+font-family = D2CodingLigature Nerd Font Mono
+shell-integration-features = no-cursor,sudo,no-title
+mouse-hide-while-typing = true
+adjust-cell-height = 35%
+macos-titlebar-style = transparent
+fullscreen = true
+window-theme = dark
+background-opacity = 0.4
+background-blur-radius = 10
+theme = catppuccin-macchiato
+

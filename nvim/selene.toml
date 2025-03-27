@@ -1,0 +1,9 @@
+std="vim"
+
+[lints]
+mixed_table="allow"
+global_usage = "allow"  # Optional: Allows all global variables
+
+[config]
+std = "neovim"  # Enables Neovim globals
+
